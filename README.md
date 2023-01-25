@@ -1,7 +1,5 @@
 # zodiac_signs
 
-### Zodiac
-
 Ontdek wat jouw sterrenbeeld is!
 
 
