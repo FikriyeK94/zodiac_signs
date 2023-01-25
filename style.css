@@ -1,0 +1,148 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('images/space.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* --------------------form--------------------- */
+
+/* form */
+#zodiac {
+    left      : 25%;
+    top       : 45%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+    background-color: rgba(5, 8, 44, 0.5);
+    padding: 80px;
+}
+
+/* form lijst onder elkaar*/
+#listZodiac {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* maanden naast elkaar */
+.inputPair {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+/* text margin */ 
+
+#birthdayZodiac {
+    margin-top: 80px;
+}
+
+/* button margin */ 
+
+#calculate {
+    margin-top: 60px;
+}
+
+/* input field*/
+
+#name, #month, #year, #day {
+    padding: 25px 100px 25px 15px;
+}
+
+/* input field name*/
+
+#name {
+    margin-top: 5px;
+    padding-right: 350px;
+    border-radius: 8px;
+    border: 1px solid rgb(138, 138, 138);
+}
+
+
+/* -------------------tekst--------------------- */
+
+/* title*/
+#nameZodiac {
+    padding-top: 50px;
+}
+
+/*  color text */
+h1, label, p {
+    color: white; 
+}
+
+/* title*/
+
+h1 {
+    font-size: 50px;
+    }
+
+
+/* label*/
+
+label {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+/* result*/
+
+#result {
+    font-size:  35px;
+}
+
+/* description*/
+
+#description {
+    font-size:  18px;
+
+}
+
+/* birthday title*/
+
+#birthday {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* -------------------button--------------------- */
+
+/* button */
+
+#calculate {
+    padding: 25px 40px 25px 40px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(125, 8, 148);
+    border-radius: 8px;
+    border: none;
+}
+
+/* -------------------image--------------------- */
+
+
+/* image */
+
+#zodiacimg {
+    width: 80%;
+}
+
+/* -------------------result section--------------------- */
+
+/* result section */
+
+#resultSection {
+    background-color: rgba(5, 8, 44, 0.5);
+    left      : 70%;
+    top       : 47%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+    padding: 80px;
+}
